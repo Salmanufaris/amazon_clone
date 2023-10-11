@@ -98,15 +98,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         color: Colors.white,
                         border: Border.all(color: Colors.grey),
                       ),
+                      alignment: Alignment.center,
                       child: const Text(
                         "Your Order",
                         style: TextStyle(fontWeight: FontWeight.w400),
                       ),
-                      alignment: Alignment.center,
                     ),
                     onTap: () {
-                      Navigator.of(context).push(
-                          MaterialPageRoute(builder: (ctx) => Accountscreen()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (ctx) => const Accountscreen()));
                     },
                   ),
                   const SizedBox(
@@ -118,13 +118,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       color: Colors.white,
                       border: Border.all(color: Colors.grey),
                     ),
+                    alignment: Alignment.center,
+                    height: 60,
+                    width: 190,
                     child: const Text(
                       "Buy Again",
                       style: TextStyle(fontWeight: FontWeight.w400),
                     ),
-                    alignment: Alignment.center,
-                    height: 60,
-                    width: 190,
                   ),
                 ],
               ),
@@ -140,11 +140,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     color: Colors.white,
                     border: Border.all(color: Colors.grey),
                   ),
-                  child: Text(
+                  alignment: Alignment.center,
+                  child: const Text(
                     "Your Account",
                     style: TextStyle(fontWeight: FontWeight.w400),
                   ),
-                  alignment: Alignment.center,
                 ),
                 const SizedBox(
                   width: 5,
@@ -155,13 +155,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     color: Colors.white,
                     border: Border.all(color: Colors.grey),
                   ),
+                  alignment: Alignment.center,
+                  height: 60,
+                  width: 190,
                   child: const Text(
                     "Your Wish List",
                     style: TextStyle(fontWeight: FontWeight.w400),
                   ),
-                  alignment: Alignment.center,
-                  height: 60,
-                  width: 190,
                 ),
               ],
             ),
@@ -282,7 +282,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         border: Border.all(color: Colors.grey)),
                     child: Image.asset("assets/images/body wahes.jpg"),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 6,
                   ),
                   Container(
@@ -301,22 +301,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 Padding(
                   padding: const EdgeInsets.only(left: 23),
                   child: Container(
-                    padding: EdgeInsets.all(3),
+                    padding: const EdgeInsets.all(3),
                     height: 20,
                     width: 100,
-                    child: Text("Body Washes",
+                    child: const Text("Body Washes",
                         style: TextStyle(
                             fontSize: 12, fontWeight: FontWeight.w600)),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 85,
                 ),
                 Container(
                   padding: EdgeInsets.all(3),
                   height: 20,
                   width: 100,
-                  child: Text(
+                  child: const Text(
                     "Lapdesks",
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
                   ),
@@ -330,19 +330,19 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   child: Container(
                     height: 10,
                     width: 60,
-                    child: Text(
+                    child: const Text(
                       "2 viewed",
                       style: TextStyle(color: Colors.black54, fontSize: 10),
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 128,
                 ),
                 Container(
                   height: 10,
                   width: 60,
-                  child: Text(
+                  child: const Text(
                     "1 viewed",
                     style: TextStyle(color: Colors.black54, fontSize: 10),
                   ),
@@ -362,7 +362,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         border: Border.all(color: Colors.grey)),
                     child: Image.asset("assets/images/calvin clien.webp"),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 6,
                   ),
                   Container(

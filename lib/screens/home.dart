@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Row(
             children: [
               Container(
-                padding: EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 height: 60,
                 width: 375,
                 child: TextField(
@@ -41,9 +41,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           Icons.search,
                         ),
                         hintText: "Search Amazon.in",
-                        hintStyle: TextStyle(fontSize: 12),
+                        hintStyle: const TextStyle(fontSize: 12),
                         prefixIconColor: Colors.black,
-                        suffixIcon: Icon(Icons.center_focus_strong_outlined),
+                        suffixIcon:
+                            const Icon(Icons.center_focus_strong_outlined),
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8)))),
               )
@@ -277,11 +278,11 @@ class _HomeScreenState extends State<HomeScreen> {
                               width: 150,
                               // color: Colors.amber,
                             ),
-                            Positioned(
+                            const Positioned(
                               top: 20,
                               left: 10,
                               child: Column(
-                                children: const [
+                                children: [
                                   CircleAvatar(
                                     radius: 25,
                                     backgroundImage: AssetImage(
@@ -296,11 +297,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ],
                               ),
                             ),
-                            Positioned(
+                            const Positioned(
                               top: 20,
                               right: 10,
                               child: Column(
-                                children: const [
+                                children: [
                                   CircleAvatar(
                                     radius: 25,
                                     backgroundImage: AssetImage(
@@ -315,11 +316,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ],
                               ),
                             ),
-                            Positioned(
+                            const Positioned(
                               bottom: 20,
                               left: 10,
                               child: Column(
-                                children: const [
+                                children: [
                                   CircleAvatar(
                                     radius: 25,
                                     backgroundImage:
@@ -334,11 +335,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ],
                               ),
                             ),
-                            Positioned(
+                            const Positioned(
                               bottom: 20,
                               right: 10,
                               child: Column(
-                                children: const [
+                                children: [
                                   CircleAvatar(
                                     radius: 25,
                                     backgroundImage: AssetImage(
@@ -363,7 +364,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Container(
                           height: 175,
                           width: 150,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
                                   'assets/images/smallboxoffer.jpeg'),
@@ -379,7 +380,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Container(
                           height: 175,
                           width: 150,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(
                                   'assets/images/Booksandeducation.jpeg'),
@@ -405,8 +406,8 @@ class _HomeScreenState extends State<HomeScreen> {
               //   width: double.infinity,
               //   child: Image.asset('asset/amazone watch.png'),
               // )
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Text(
                   'Clothing,footwear& more',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -434,13 +435,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
-                    child: Text(
+                    child: const Text(
                       "Mens T shirt",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
                   Container(
-                    child: Text("Kids T shirt",
+                    child: const Text("Kids T shirt",
                         style: TextStyle(fontWeight: FontWeight.bold)),
                   )
                 ],
@@ -467,13 +468,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Container(
-                    child: Text(
+                    child: const Text(
                       "shoes",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
                   Container(
-                    child: Text("bags",
+                    child: const Text("bags",
                         style: TextStyle(fontWeight: FontWeight.bold)),
                   )
                 ],

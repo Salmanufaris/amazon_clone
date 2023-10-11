@@ -13,7 +13,7 @@ class _AcountScreenState extends State<Accountscreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          leading: Icon(
+          leading: const Icon(
             Icons.arrow_back,
             color: Colors.black,
           ),
@@ -21,7 +21,7 @@ class _AcountScreenState extends State<Accountscreen> {
           title: Row(
             children: [
               Container(
-                padding: EdgeInsets.all(9),
+                padding: const EdgeInsets.all(9),
                 height: 63,
                 width: 320,
                 child: TextField(
@@ -32,9 +32,10 @@ class _AcountScreenState extends State<Accountscreen> {
                           Icons.search,
                         ),
                         hintText: "Search Amazon.in",
-                        hintStyle: TextStyle(fontSize: 12),
+                        hintStyle: const TextStyle(fontSize: 12),
                         prefixIconColor: Colors.black,
-                        suffixIcon: Icon(Icons.center_focus_strong_outlined),
+                        suffixIcon:
+                            const Icon(Icons.center_focus_strong_outlined),
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8)))),
               )
@@ -43,7 +44,7 @@ class _AcountScreenState extends State<Accountscreen> {
         ),
         body: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(10.0),
             child: Column(
               children: [
                 Container(

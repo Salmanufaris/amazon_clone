@@ -27,12 +27,12 @@ class FirstTab extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Container(
-                    child: Text("Deliver to salman - kottakal 676551"),
                     height: 20,
+                    child: const Text("Deliver to salman - kottakal 676551"),
                   )
                 ],
               ),
@@ -44,7 +44,7 @@ class FirstTab extends StatelessWidget {
                   Container(
                     height: 30,
                     width: 100,
-                    child: Text(
+                    child: const Text(
                       "Subtotal",
                       style: TextStyle(fontSize: 20),
                       textAlign: TextAlign.center,
@@ -53,7 +53,7 @@ class FirstTab extends StatelessWidget {
                   Container(
                     height: 30,
                     width: 150,
-                    child: Text(
+                    child: const Text(
                       "1,44,998",
                       style:
                           TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
@@ -70,7 +70,7 @@ class FirstTab extends StatelessWidget {
                     padding: EdgeInsets.all(4),
                     height: 25,
                     width: 100,
-                    child: Text(
+                    child: const Text(
                       "EMI Available",
                       style: TextStyle(fontSize: 14),
                       textAlign: TextAlign.right,
@@ -80,7 +80,7 @@ class FirstTab extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     height: 30,
                     width: 150,
-                    child: Text(
+                    child: const Text(
                       "Details",
                       style: TextStyle(
                         fontSize: 15,
@@ -91,13 +91,13 @@ class FirstTab extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 7,
             ),
             Container(
               width: 370,
               height: 20,
-              child: Row(
+              child: const Row(
                 children: [
                   Icon(
                     Icons.domain_verification_rounded,
@@ -111,14 +111,14 @@ class FirstTab extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 4,
             ),
             Container(
               height: 20,
               width: 370,
               padding: EdgeInsets.only(left: 23),
-              child: Row(
+              child: const Row(
                 children: [
                   Text("option at checkout."),
                   Text(
@@ -128,7 +128,7 @@ class FirstTab extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Padding(
@@ -141,12 +141,12 @@ class FirstTab extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                   color: Colors.amber,
                 ),
-                child: Text(
+                child: const Text(
                   "Proceed to Buy (2 items)",
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 28,
             ),
             Padding(
@@ -164,10 +164,10 @@ class FirstTab extends StatelessWidget {
                           color: Colors.white,
                           border: Border.all(color: Colors.grey)),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
-                    Text("send as a gift.Include custom message"),
+                    const Text("send as a gift.Include custom message"),
                   ],
                 ),
               ),
@@ -205,12 +205,12 @@ class FirstTab extends StatelessWidget {
                                 width: 150,
                                 height: 150,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 20,
                               ),
                             ],
                           )),
-                      SizedBox(
+                      const SizedBox(
                         width: 20,
                       ),
                       Container(
@@ -298,35 +298,35 @@ class FirstTab extends StatelessWidget {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.only(
+                                  borderRadius: const BorderRadius.only(
                                       topLeft: Radius.circular(10),
                                       bottomLeft: Radius.circular(10)),
                                   color: Colors.grey.shade400,
                                   border: Border.all(color: Colors.grey)),
-                              child: Icon(Icons.delete),
                               width: 55,
                               height: 40,
+                              child: Icon(Icons.delete),
                             ),
-                            Text(
+                            const Text(
                               "1",
                             ),
                             Container(
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.only(
+                                  borderRadius: const BorderRadius.only(
                                       topRight: Radius.circular(10),
                                       bottomRight: Radius.circular(10)),
                                   color: Colors.grey.shade400,
                                   border: Border.all(color: Colors.grey)),
-                              child: Icon(Icons.add),
                               width: 55,
                               height: 40,
+                              child: Icon(Icons.add),
                             ),
                           ],
                         ),
                       )
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   Row(
@@ -346,7 +346,7 @@ class FirstTab extends StatelessWidget {
                                   border: Border.all(color: Colors.grey)),
                               child: Text("Delete"),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10,
                             ),
                             Container(
@@ -355,9 +355,9 @@ class FirstTab extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                   color: Colors.white,
                                   border: Border.all(color: Colors.grey)),
-                              child: Text("Save for later"),
                               width: 110,
                               height: 40,
+                              child: Text("Save for later"),
                             ),
                           ],
                         ),
@@ -378,7 +378,7 @@ class FirstTab extends StatelessWidget {
                     decoration: BoxDecoration(
                         border: Border.all(color: Colors.grey),
                         borderRadius: BorderRadius.circular(10)),
-                    child: Text("See more like this"),
+                    child: const Text("See more like this"),
                   )
                 ],
               ),

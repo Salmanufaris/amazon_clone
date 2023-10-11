@@ -12,7 +12,7 @@ class SecondTab extends StatelessWidget {
             child: Row(
               children: [
                 Container(
-                  padding: EdgeInsets.only(left: 10, top: 3),
+                  padding: const EdgeInsets.only(left: 10, top: 3),
                   height: 60,
                   width: 400,
                   child: Row(
@@ -22,7 +22,7 @@ class SecondTab extends StatelessWidget {
                         height: 60,
                         width: 100,
                         alignment: Alignment.center,
-                        child: Text(
+                        child: const Text(
                           "Buy Again",
                           style: TextStyle(
                               fontSize: 17, fontWeight: FontWeight.bold),
@@ -40,7 +40,7 @@ class SecondTab extends StatelessWidget {
                                     border: Border.all(color: Colors.grey)),
                                 height: 30,
                                 width: 80,
-                                child: Row(
+                                child: const Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text("Filters"),
@@ -75,7 +75,7 @@ class SecondTab extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Container(
@@ -107,7 +107,7 @@ class SecondTab extends StatelessWidget {
                               height: 95,
                               width: 160,
                               color: Colors.white,
-                              child: Column(
+                              child: const Column(
                                 children: [
                                   Text(
                                     'Redmi AI (light Green, 2G',
@@ -143,7 +143,7 @@ class SecondTab extends StatelessWidget {
                                 ],
                               ),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 4,
                             ),
                             Container(
@@ -154,7 +154,7 @@ class SecondTab extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                                 color: Colors.amber,
                               ),
-                              child: Text("Add to Cart"),
+                              child: const Text("Add to Cart"),
                             )
                           ],
                         ),
@@ -172,14 +172,14 @@ class SecondTab extends StatelessWidget {
                                 "assets/images/s23ultra.webp",
                               ),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 19,
                             ),
                             Container(
                               height: 95,
                               width: 170,
                               color: Colors.white,
-                              child: Column(
+                              child: const Column(
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
                                   Text(
@@ -190,7 +190,7 @@ class SecondTab extends StatelessWidget {
                                     height: 4,
                                   ),
                                   Padding(
-                                    padding: const EdgeInsets.only(right: 90),
+                                    padding: EdgeInsets.only(right: 90),
                                     child: Text(
                                       '-28% 12,999.00',
                                       style: TextStyle(
@@ -202,7 +202,7 @@ class SecondTab extends StatelessWidget {
                                     height: 4,
                                   ),
                                   Padding(
-                                    padding: const EdgeInsets.only(right: 90),
+                                    padding: EdgeInsets.only(right: 90),
                                     child: Text(
                                       'M.R.P; 17,999',
                                       style: TextStyle(fontSize: 10),
@@ -212,7 +212,7 @@ class SecondTab extends StatelessWidget {
                                     height: 4,
                                   ),
                                   Padding(
-                                    padding: const EdgeInsets.only(right: 30),
+                                    padding: EdgeInsets.only(right: 30),
                                     child: Text(
                                       'Get it by Mon,April 24 FREE',
                                       style: TextStyle(fontSize: 10),
@@ -222,7 +222,7 @@ class SecondTab extends StatelessWidget {
                                     height: 4,
                                   ),
                                   Padding(
-                                    padding: const EdgeInsets.only(right: 10),
+                                    padding: EdgeInsets.only(right: 10),
                                     child: Text(
                                       'Delivery over 499.Fulfilled by...',
                                       style: TextStyle(fontSize: 10),
@@ -231,7 +231,7 @@ class SecondTab extends StatelessWidget {
                                 ],
                               ),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 4,
                             ),
                             Container(
@@ -242,7 +242,7 @@ class SecondTab extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                                 color: Colors.amber,
                               ),
-                              child: Text("Add to Cart"),
+                              child: const Text("Add to Cart"),
                             )
                           ],
                         ),
@@ -250,7 +250,7 @@ class SecondTab extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
                 Container(
